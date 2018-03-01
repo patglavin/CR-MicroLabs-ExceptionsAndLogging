@@ -3,42 +3,18 @@
   <ID>JAVA</ID>
   <OriginalElement>com.zipcodewilmington.phone.PhoneNumber</OriginalElement>
   <nodes>
-    <node x="24.75" y="246.0">com.zipcodewilmington.phone.PhoneNumberFactory</node>
-    <node x="0.0" y="79.0">com.zipcodewilmington.phone.PhoneNumber</node>
-    <node x="55.349999999999994" y="0.0">com.zipcodewilmington.exceptions.InvalidPhoneNumberFormatException</node>
-    <node x="273.0" y="101.0">com.zipcodewilmington.tools.RandomNumberFactory</node>
+    <node x="0.0" y="0.0">com.zipcodewilmington.phone.PhoneNumberFactory</node>
+    <node x="0.0" y="185.0">com.zipcodewilmington.phone.PhoneNumber</node>
+    <node x="0.0" y="511.0">com.zipcodewilmington.exceptions.InvalidPhoneNumberFormatException</node>
+    <node x="0.0" y="370.0">com.zipcodewilmington.tools.RandomNumberFactory</node>
   </nodes>
   <notes />
-  <edges>
-    <edge source="com.zipcodewilmington.phone.PhoneNumberFactory" target="com.zipcodewilmington.tools.RandomNumberFactory">
-      <point x="151.875" y="-58.5" />
-      <point x="379.125" y="221.0" />
-      <point x="423.0" y="221.0" />
-      <point x="0.0" y="36.5" />
-    </edge>
-    <edge source="com.zipcodewilmington.phone.PhoneNumberFactory" target="com.zipcodewilmington.exceptions.InvalidPhoneNumberFormatException">
-      <point x="50.625" y="-58.5" />
-      <point x="277.875" y="221.0" />
-      <point x="262.5" y="221.0" />
-      <point x="262.5" y="54.0" />
-      <point x="264.6" y="54.0" />
-      <point x="69.75" y="14.5" />
-    </edge>
-    <edge source="com.zipcodewilmington.phone.PhoneNumber" target="com.zipcodewilmington.exceptions.InvalidPhoneNumberFormatException">
-      <point x="0.0" y="-58.5" />
-      <point x="-69.75" y="14.5" />
-    </edge>
-    <edge source="com.zipcodewilmington.phone.PhoneNumberFactory" target="com.zipcodewilmington.phone.PhoneNumber">
-      <point x="-151.875" y="-58.5" />
-      <point x="75.375" y="221.0" />
-      <point x="63.0" y="221.0" />
-      <point x="-63.0" y="58.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="210.00000000000006" y="207.0" />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.8094435075885329" x="468.10625" y="431.0541666666667" />
   <SelectedNodes />
   <Categories>
     <Category>Methods</Category>
+    <Category>Fields</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
